@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <h1>Your Cart</h1>
+        <div id="cart">
+            <button onclick="goToMainPage()">Back to Shop</button>
+        </div>
+    </header>
+    
+    <div id="cart-items">
+        <!-- Cart items will be dynamically loaded here -->
+    </div>
+    
+    <div>
+        <button onclick="calculateTotal()" id="buy-now">Buy Now</button>
+    </div>
+    
+    <div>
+        <button id="clear-cart" onclick="clearCart()">Clear Cart</button>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
