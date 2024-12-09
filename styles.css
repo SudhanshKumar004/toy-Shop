@@ -137,6 +137,85 @@ header {
     cursor: pointer;
 }
 
+footer {
+    background-color: #335;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info, .quick-links, .social-links {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.contact-info h4, .quick-links h4, .social-links h4 {
+    margin-bottom: 10px;
+}
+
+.contact-info p, .quick-links ul {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-links .social-icon {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-links .social-icon i {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin: 5px 0;
+}
+
+.footer-copyright {
+    border-top: 1px solid #777;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    footer .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .footer-section {
+        margin-bottom: 20px;
+    }
+
+    footer .social-media a {
+        margin-right: 10px;
+    }
+}
+
 
 @media screen and (max-width:435px){
  .nav ul li{
