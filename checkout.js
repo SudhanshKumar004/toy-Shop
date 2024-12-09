@@ -4,7 +4,7 @@ window.onload = () => {
     let totalAmountElement = document.querySelector('#total-amount');
     
    
-    totalAmountElement.innerHTML = `Total Amount: $${totalAmount}`;
+    totalAmountElement.innerHTML = `Total Amount: Rs.${totalAmount}`;
 
 };
 

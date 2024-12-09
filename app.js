@@ -9,7 +9,7 @@ async function loadProducts() {
             <div class="product">
                 <img src="${product.image}" alt="${product.name}">
                 <h3>${product.name}</h3>
-                <p>$${product.price.toFixed(2)}</p>
+                <p>Rs.${product.price.toFixed(2)}</p>
                 <button onclick="addToCart(${product.id})">Add to Cart</button>
             </div>
         `).join('');

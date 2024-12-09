@@ -14,7 +14,7 @@ async function loadCartItems() {
             <div class="cart-item">
                 <img src="${item.image}" alt="${item.name}">
                 <h3>${item.name}</h3>
-                <p>$${item.price.toFixed(2)}</p>
+                <p>Rs.${item.price.toFixed(2)}</p>
                 <button onclick="removeFromCart(${item.id})">Remove</button>
             </div>
         `).join('');
